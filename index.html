@@ -20,10 +20,16 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet" />
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,8 +123,7 @@
                   </p>
                 </div>
                 <div class="col-md-12" style="margin-bottom: 10px;">
-                  <b
-                    >
+                  <b>
                     <a href="https://mquanit.netlify.com/" target="_blank">
                       My Official Blog Site
                     </a>
@@ -721,6 +726,30 @@
               <div class="row">
                 <div class="col-md-6">
                   <a
+                    href="https://saiyaara.tk/"
+                    target="_blank"
+                    class="portfolio-item"
+                  >
+                    <div class="portfolio-thumb">
+                      <img
+                        style="height: 300px; width: 100%;"
+                        id="Saiyaara app"
+                        src="img/saiyaara.png"
+                        alt=""
+                      />
+                    </div>
+
+                    <div class="portfolio-info">
+                      <h3>Olx Progressive Web App</h3>
+                      <small>JavaScript</small>
+                    </div>
+                    <!-- portfolio-info -->
+                  </a>
+                  <!-- .portfolio-item -->
+                </div>
+
+                <div class="col-md-6">
+                  <a
                     href="https://olx-app-db.web.app/"
                     target="_blank"
                     class="portfolio-item"
@@ -774,11 +803,16 @@
                     class="portfolio-item"
                   >
                     <div class="portfolio-thumb">
-                      <img id="javaProject" src="img/newshub.png" alt="" />
+                      <img
+                        id="javaProject"
+                        src="img/newshub.png"
+                        alt=""
+                        style="height: 300px; width: 100%;"
+                      />
                     </div>
 
                     <div class="portfolio-info">
-                      <h3>New App</h3>
+                      <h3>News App</h3>
                       <small>Javascript React</small>
                     </div>
                     <!-- portfolio-info -->
@@ -794,7 +828,7 @@
                   >
                     <div class="portfolio-thumb">
                       <img
-                        style="height: 100px;"
+                        style="height: 300px; width: 100%;"
                         id="javaProject"
                         src="img/chat.png"
                         alt=""
@@ -807,14 +841,20 @@
                     </div>
                     <!-- portfolio-info -->
                   </a>
-
+                </div>
+                <div class="col-md-6">
                   <a
                     href="https://practicedb-18881.web.app/"
                     target="_blank"
                     class="portfolio-item"
                   >
                     <div class="portfolio-thumb">
-                      <img id="javaProject" src="img/todo.png" alt="" />
+                      <img
+                        id="javaProject"
+                        src="img/todo.png"
+                        alt=""
+                        style="height: 300px; width: 100%;"
+                      />
                     </div>
 
                     <div class="portfolio-info">
@@ -843,14 +883,22 @@
               </div>
               <!-- first row -->
               <div class="row">
-                <div class="col-md-6">
+                <div
+                  class="col-md-6"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
                   <img
                     class="img-responsive acheivements-images"
                     src="img/nestio.jpg"
                   />
                   <h3>My Talk on NestJs on React Karachi</h3>
                 </div>
-                <div class="col-md-6">
+                <div
+                  class="col-md-6"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
                   <img
                     class="img-responsive acheivements-images"
                     src="img/ngtalk.jpeg"
@@ -861,14 +909,22 @@
               <!-- /.row -->
               <!-- second row -->
               <div class="row">
-                <div class="col-md-6">
+                <div
+                  class="col-md-6"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
                   <img class="img-responsive " src="img/wiiners.jpg" />
                   <h3>
                     Won third best idea on Civil issues in National Incubation
                     Center
                   </h3>
                 </div>
-                <div class="col-md-6">
+                <div
+                  class="col-md-6"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
                   <img class="img-responsive " src="img/saylani-degree.jpg" />
                   <h3>
                     Won best Web app competition in Saylani Mass IT Training
@@ -878,7 +934,11 @@
               <!-- /.row -->
               <!-- third row -->
               <div class="row">
-                <div class="col-md-6">
+                <div
+                  class="col-md-6"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
                   <img
                     class="img-responsive acheivements-images"
                     src="img/shield.png"
@@ -894,6 +954,153 @@
               </div>
               <!-- /.row -->
             </div>
+
+            <!-- modal start -->
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#myCarousel"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                  <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img
+                      src="img/10pearls.jpeg"
+                      alt="10 pearls talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/me4.jpeg"
+                      alt="10 pearls talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/ngtalk.jpeg"
+                      alt="10 pearls talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/nestio.jpg"
+                      alt="nestio talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/70833828_2389457424436766_1926363664856645632_n.jpg"
+                      alt="nestio talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/70962490_1079972442212241_4350292930108325888_n.jpg"
+                      alt="nestio talk"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/71581525_1079970992212386_309009402159955968_n.jpg"
+                      alt="nestio talk"
+                      style="margin: 0 auto; width: 35%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/wiiners.jpg"
+                      alt="winners in idea competition"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/win.jpg"
+                      alt="winners in idea competition"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/saylani-degree.jpg"
+                      alt="saylani-degree"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/shield.jpg"
+                      alt="ng sheild"
+                      style="margin: 0 auto; width: 40%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/IMG-20190713-WA0000.jpg"
+                      alt="saylani-degree"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+
+                  <div class="item">
+                    <img
+                      src="img/IMG-20191123-WA0000.jpg"
+                      alt="saylani-degree"
+                      style="margin: 0 auto; width: 70%; height: 700px;"
+                    />
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a
+                  class="left carousel-control"
+                  href="#myCarousel"
+                  data-slide="prev"
+                >
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="right carousel-control"
+                  href="#myCarousel"
+                  data-slide="next"
+                >
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <!-- modal end -->
           </section>
           <!-- .acheivemtns -->
 
@@ -1022,11 +1229,6 @@
     </div>
     <!-- #main-wrapper -->
 
-    <!-- jquery -->
-    <script src="js/jquery-2.1.4.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
