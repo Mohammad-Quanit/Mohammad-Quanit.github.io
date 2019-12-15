@@ -302,7 +302,7 @@ button:focus,
   .header {
     padding: 0;
     margin: 0;
-    height: 77vh;
+    /* height: 200vh; */
     vertical-align: middle;
     position: relative;
   }
