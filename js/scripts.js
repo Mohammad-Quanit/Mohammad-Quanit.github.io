@@ -51,7 +51,7 @@ if ("HTMLPortalElement" in window) {
   const portal = document.createElement("portal");
 
   // Let's navigate into the WICG Portals spec page
-  portal.src = "http://localhost:8000/";
+  portal.src = "https://mquanit.netlify.com/";
 
   // Add a class that defines the transition. Consider using
   // `prefers-reduced-motion` media query to control the animation.
