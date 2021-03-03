@@ -634,3 +634,13 @@ button:focus,
   padding: 10px;
   border-radius: 50px;
 }
+.responsibilities-list {
+  padding-left: 10px;
+}
+.close {
+  font-size: 20px;
+  color: 'white'
+}
+/* .modal-backdrop.show {
+  opacity: 0.8;
+} */
